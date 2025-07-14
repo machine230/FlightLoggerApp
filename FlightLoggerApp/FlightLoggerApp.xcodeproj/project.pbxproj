@@ -1,0 +1,626 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		68DFEAB92E25C4AD00027148 /* FlightLoggerAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68DFEAB82E25C4AD00027148 /* FlightLoggerAppApp.swift */; };
+		68DFEABB2E25C4AD00027148 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68DFEABA2E25C4AD00027148 /* ContentView.swift */; };
+		68DFEABD2E25C4AD00027148 /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68DFEABC2E25C4AD00027148 /* Item.swift */; };
+		68DFEABF2E25C4B000027148 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 68DFEABE2E25C4B000027148 /* Assets.xcassets */; };
+		68DFEAC32E25C4B000027148 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 68DFEAC22E25C4B000027148 /* Preview Assets.xcassets */; };
+		68DFEACD2E25C4B000027148 /* FlightLoggerAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68DFEACC2E25C4B000027148 /* FlightLoggerAppTests.swift */; };
+		68DFEAD72E25C4B000027148 /* FlightLoggerAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68DFEAD62E25C4B000027148 /* FlightLoggerAppUITests.swift */; };
+		68DFEAD92E25C4B000027148 /* FlightLoggerAppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68DFEAD82E25C4B000027148 /* FlightLoggerAppUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		68DFEAC92E25C4B000027148 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 68DFEAAD2E25C4AC00027148 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 68DFEAB42E25C4AD00027148;
+			remoteInfo = FlightLoggerApp;
+		};
+		68DFEAD32E25C4B000027148 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 68DFEAAD2E25C4AC00027148 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 68DFEAB42E25C4AD00027148;
+			remoteInfo = FlightLoggerApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		68DFEAB52E25C4AD00027148 /* FlightLoggerApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FlightLoggerApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		68DFEAB82E25C4AD00027148 /* FlightLoggerAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlightLoggerAppApp.swift; sourceTree = "<group>"; };
+		68DFEABA2E25C4AD00027148 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		68DFEABC2E25C4AD00027148 /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
+		68DFEABE2E25C4B000027148 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		68DFEAC02E25C4B000027148 /* FlightLoggerApp.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = FlightLoggerApp.entitlements; sourceTree = "<group>"; };
+		68DFEAC22E25C4B000027148 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		68DFEAC82E25C4B000027148 /* FlightLoggerAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FlightLoggerAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		68DFEACC2E25C4B000027148 /* FlightLoggerAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlightLoggerAppTests.swift; sourceTree = "<group>"; };
+		68DFEAD22E25C4B000027148 /* FlightLoggerAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FlightLoggerAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		68DFEAD62E25C4B000027148 /* FlightLoggerAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlightLoggerAppUITests.swift; sourceTree = "<group>"; };
+		68DFEAD82E25C4B000027148 /* FlightLoggerAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlightLoggerAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		68DFEAB22E25C4AD00027148 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		68DFEAC52E25C4B000027148 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		68DFEACF2E25C4B000027148 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		68DFEAAC2E25C4AC00027148 = {
+			isa = PBXGroup;
+			children = (
+				68DFEAB72E25C4AD00027148 /* FlightLoggerApp */,
+				68DFEACB2E25C4B000027148 /* FlightLoggerAppTests */,
+				68DFEAD52E25C4B000027148 /* FlightLoggerAppUITests */,
+				68DFEAB62E25C4AD00027148 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		68DFEAB62E25C4AD00027148 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				68DFEAB52E25C4AD00027148 /* FlightLoggerApp.app */,
+				68DFEAC82E25C4B000027148 /* FlightLoggerAppTests.xctest */,
+				68DFEAD22E25C4B000027148 /* FlightLoggerAppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		68DFEAB72E25C4AD00027148 /* FlightLoggerApp */ = {
+			isa = PBXGroup;
+			children = (
+				68DFEAB82E25C4AD00027148 /* FlightLoggerAppApp.swift */,
+				68DFEABA2E25C4AD00027148 /* ContentView.swift */,
+				68DFEABC2E25C4AD00027148 /* Item.swift */,
+				68DFEABE2E25C4B000027148 /* Assets.xcassets */,
+				68DFEAC02E25C4B000027148 /* FlightLoggerApp.entitlements */,
+				68DFEAC12E25C4B000027148 /* Preview Content */,
+			);
+			path = FlightLoggerApp;
+			sourceTree = "<group>";
+		};
+		68DFEAC12E25C4B000027148 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				68DFEAC22E25C4B000027148 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		68DFEACB2E25C4B000027148 /* FlightLoggerAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				68DFEACC2E25C4B000027148 /* FlightLoggerAppTests.swift */,
+			);
+			path = FlightLoggerAppTests;
+			sourceTree = "<group>";
+		};
+		68DFEAD52E25C4B000027148 /* FlightLoggerAppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				68DFEAD62E25C4B000027148 /* FlightLoggerAppUITests.swift */,
+				68DFEAD82E25C4B000027148 /* FlightLoggerAppUITestsLaunchTests.swift */,
+			);
+			path = FlightLoggerAppUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		68DFEAB42E25C4AD00027148 /* FlightLoggerApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 68DFEADC2E25C4B000027148 /* Build configuration list for PBXNativeTarget "FlightLoggerApp" */;
+			buildPhases = (
+				68DFEAB12E25C4AD00027148 /* Sources */,
+				68DFEAB22E25C4AD00027148 /* Frameworks */,
+				68DFEAB32E25C4AD00027148 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FlightLoggerApp;
+			productName = FlightLoggerApp;
+			productReference = 68DFEAB52E25C4AD00027148 /* FlightLoggerApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		68DFEAC72E25C4B000027148 /* FlightLoggerAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 68DFEADF2E25C4B000027148 /* Build configuration list for PBXNativeTarget "FlightLoggerAppTests" */;
+			buildPhases = (
+				68DFEAC42E25C4B000027148 /* Sources */,
+				68DFEAC52E25C4B000027148 /* Frameworks */,
+				68DFEAC62E25C4B000027148 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				68DFEACA2E25C4B000027148 /* PBXTargetDependency */,
+			);
+			name = FlightLoggerAppTests;
+			productName = FlightLoggerAppTests;
+			productReference = 68DFEAC82E25C4B000027148 /* FlightLoggerAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		68DFEAD12E25C4B000027148 /* FlightLoggerAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 68DFEAE22E25C4B000027148 /* Build configuration list for PBXNativeTarget "FlightLoggerAppUITests" */;
+			buildPhases = (
+				68DFEACE2E25C4B000027148 /* Sources */,
+				68DFEACF2E25C4B000027148 /* Frameworks */,
+				68DFEAD02E25C4B000027148 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				68DFEAD42E25C4B000027148 /* PBXTargetDependency */,
+			);
+			name = FlightLoggerAppUITests;
+			productName = FlightLoggerAppUITests;
+			productReference = 68DFEAD22E25C4B000027148 /* FlightLoggerAppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		68DFEAAD2E25C4AC00027148 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1520;
+				LastUpgradeCheck = 1520;
+				TargetAttributes = {
+					68DFEAB42E25C4AD00027148 = {
+						CreatedOnToolsVersion = 15.2;
+					};
+					68DFEAC72E25C4B000027148 = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = 68DFEAB42E25C4AD00027148;
+					};
+					68DFEAD12E25C4B000027148 = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = 68DFEAB42E25C4AD00027148;
+					};
+				};
+			};
+			buildConfigurationList = 68DFEAB02E25C4AC00027148 /* Build configuration list for PBXProject "FlightLoggerApp" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 68DFEAAC2E25C4AC00027148;
+			productRefGroup = 68DFEAB62E25C4AD00027148 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				68DFEAB42E25C4AD00027148 /* FlightLoggerApp */,
+				68DFEAC72E25C4B000027148 /* FlightLoggerAppTests */,
+				68DFEAD12E25C4B000027148 /* FlightLoggerAppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		68DFEAB32E25C4AD00027148 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				68DFEAC32E25C4B000027148 /* Preview Assets.xcassets in Resources */,
+				68DFEABF2E25C4B000027148 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		68DFEAC62E25C4B000027148 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		68DFEAD02E25C4B000027148 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		68DFEAB12E25C4AD00027148 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				68DFEABB2E25C4AD00027148 /* ContentView.swift in Sources */,
+				68DFEABD2E25C4AD00027148 /* Item.swift in Sources */,
+				68DFEAB92E25C4AD00027148 /* FlightLoggerAppApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		68DFEAC42E25C4B000027148 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				68DFEACD2E25C4B000027148 /* FlightLoggerAppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		68DFEACE2E25C4B000027148 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				68DFEAD92E25C4B000027148 /* FlightLoggerAppUITestsLaunchTests.swift in Sources */,
+				68DFEAD72E25C4B000027148 /* FlightLoggerAppUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		68DFEACA2E25C4B000027148 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 68DFEAB42E25C4AD00027148 /* FlightLoggerApp */;
+			targetProxy = 68DFEAC92E25C4B000027148 /* PBXContainerItemProxy */;
+		};
+		68DFEAD42E25C4B000027148 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 68DFEAB42E25C4AD00027148 /* FlightLoggerApp */;
+			targetProxy = 68DFEAD32E25C4B000027148 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		68DFEADA2E25C4B000027148 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		68DFEADB2E25C4B000027148 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		68DFEADD2E25C4B000027148 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = FlightLoggerApp/FlightLoggerApp.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"FlightLoggerApp/Preview Content\"";
+				DEVELOPMENT_TEAM = 3CK75N797D;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.pnwav8r.FlightLoggerApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		68DFEADE2E25C4B000027148 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = FlightLoggerApp/FlightLoggerApp.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"FlightLoggerApp/Preview Content\"";
+				DEVELOPMENT_TEAM = 3CK75N797D;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.pnwav8r.FlightLoggerApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		68DFEAE02E25C4B000027148 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3CK75N797D;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MACOSX_DEPLOYMENT_TARGET = 13.7;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.pnwav8r.FlightLoggerAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FlightLoggerApp.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/FlightLoggerApp";
+			};
+			name = Debug;
+		};
+		68DFEAE12E25C4B000027148 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3CK75N797D;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MACOSX_DEPLOYMENT_TARGET = 13.7;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.pnwav8r.FlightLoggerAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FlightLoggerApp.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/FlightLoggerApp";
+			};
+			name = Release;
+		};
+		68DFEAE32E25C4B000027148 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3CK75N797D;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MACOSX_DEPLOYMENT_TARGET = 13.7;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.pnwav8r.FlightLoggerAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = FlightLoggerApp;
+			};
+			name = Debug;
+		};
+		68DFEAE42E25C4B000027148 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3CK75N797D;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MACOSX_DEPLOYMENT_TARGET = 13.7;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.pnwav8r.FlightLoggerAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = FlightLoggerApp;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		68DFEAB02E25C4AC00027148 /* Build configuration list for PBXProject "FlightLoggerApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				68DFEADA2E25C4B000027148 /* Debug */,
+				68DFEADB2E25C4B000027148 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		68DFEADC2E25C4B000027148 /* Build configuration list for PBXNativeTarget "FlightLoggerApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				68DFEADD2E25C4B000027148 /* Debug */,
+				68DFEADE2E25C4B000027148 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		68DFEADF2E25C4B000027148 /* Build configuration list for PBXNativeTarget "FlightLoggerAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				68DFEAE02E25C4B000027148 /* Debug */,
+				68DFEAE12E25C4B000027148 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		68DFEAE22E25C4B000027148 /* Build configuration list for PBXNativeTarget "FlightLoggerAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				68DFEAE32E25C4B000027148 /* Debug */,
+				68DFEAE42E25C4B000027148 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 68DFEAAD2E25C4AC00027148 /* Project object */;
+}
